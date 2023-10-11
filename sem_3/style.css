@@ -24,7 +24,7 @@
 
 .header {
     margin-top: 40px;
-    width: 1289px;
+    width: 1170px;
     background-color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -39,10 +39,9 @@
     font-size: 14px;
 }
 .links {
-    width: 533px;
     display: flex;
     justify-content: space-between;
-    margin-right: 210px;
+    gap: 20px;
 }
 .navigation {
     
@@ -54,16 +53,15 @@
 
  .content {
     margin-left: 14px;
-    width: 1289px;
+    width: 1170px;
     height: 536px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 81px;
 }
 .content_image {
-    width: 544.814px;
-    height: 374.843px;
-    margin-top: 94.71px;
+    height: 372.904px;
 }
 
 .seo {
@@ -122,12 +120,13 @@
 
 .footer {
     
-    width: 1240px;
+    width: 1200px;
     height: 158px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 48px;
+    margin: 0 auto;
 }
 
 .footer_img {
