@@ -40,11 +40,9 @@
 }
 .links {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
 }
 .navigation {
-    
     font-family: 'Gilroy-Medium';
     text-decoration: none;
     color: #000;
@@ -62,10 +60,6 @@
 }
 .content_image {
     height: 372.904px;
-}
-
-.seo {
-    margin-right: 40.94px;
 }
 
 .seo_digi {
@@ -106,7 +100,6 @@
     font-family: Gilroy-Bold;
     color: #FFF;
     font-size: 15px;
-    margin:auto;
 }
 
 .watch__text {
