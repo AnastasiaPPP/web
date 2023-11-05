@@ -58,7 +58,6 @@ body {
     margin-bottom: 65px;
 }
 .intro__text {
-
     display: flex;
     align-items: center;
     gap: 16px;
@@ -210,4 +209,52 @@ body {
     margin-bottom: 15px;
 }
 
-@media(min-width:786px)and(max-width:1024px) {}
+@media (max-width:1024px) {
+    .intro__photo {
+        max-width: 368px;
+        max-height: 368px;
+    }
+    .header_container {
+        padding-left: 32px;
+        padding-right: 41px;
+    }
+    .the_brand {
+        font-size: 44px;
+    }
+    .the_brand_sec{
+        font-size: 24px;
+    }
+    .offer {
+        gap: 20px;
+        max-width: 768px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .box {
+        background-size: 232px auto;
+        max-width: 232px;
+        max-height: 167px;
+        
+    }
+    .upper__txt {
+        top: 43%;
+    min-width: 154px;
+    }
+    .box_4 {
+        height: 116px;
+    }
+    .products {
+        max-width: 768px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .product_description {
+        max-width: 316px;
+        padding: 24px 26px 20px 18px;
+    }
+    .button {
+        margin-top: 32px;
+    }
+}
