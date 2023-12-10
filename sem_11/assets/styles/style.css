@@ -68,7 +68,7 @@ body {
 
 .drop__content {    
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 232px;
     padding-top: 32px;
@@ -104,6 +104,7 @@ font-size: 14px;
 }
 .dropdown_btn:hover .drop__content{
     display: block;
+    right: 0;
 }
 .basket {
     position: relative;
@@ -466,10 +467,9 @@ cursor: pointer;
 @media (max-width:1439px) {
     .header_container {
         max-width: 768px;
-        padding: 0;
+        /* padding: 0; */
         width: 90vw;
     }
-
     .intro__container {
         max-width: 768px;
     }
